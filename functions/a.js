@@ -10,8 +10,8 @@ module.exports.handle = (event, context, callback) => {
     console.log(event);
     let body = JSON.parse(event.body);
     yield lambda.invoke({
-      FunctionName: "lambda-tracing-dev-b",
-      InvocationType: "RequestResponse",
+      FunctionName: 'aws-xray-lambda-dev-b',
+      InvocationType: 'RequestResponse',
       Payload: JSON.stringify(body),
     }).promise();
   }).then(() => {

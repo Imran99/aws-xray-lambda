@@ -5,5 +5,8 @@
 * Enable tracing on lambda a via the lambda management console
 * Make an inital post request to api a and check the x-ray console for a service map and trace info
 
+### Service Map
+![alt](service-map.png)
+
 ### More Info
 AWS X-Ray SDK docs: https://www.npmjs.com/package/aws-xray-sdk-core

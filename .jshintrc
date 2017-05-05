@@ -1,0 +1,17 @@
+{
+  "undef": true,
+  "unused": true,
+  "esversion": 6,
+  "mocha": true,
+  "node": true,
+  "forin": true,
+    "globals"   : {
+    /* MOCHA */
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false
+  }
+}
